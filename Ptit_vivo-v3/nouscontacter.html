@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au P'tit Vivo - Contact</title>
+    <link rel="stylesheet" href="CSS/Head_Main_Foot.css">
+    <link rel="stylesheet" href="CSS/Primary-values.css">
+    <link rel="stylesheet" href="CSS/nouscontacter.css">
+</head>
+
+<body>
+    <header>
+        <!-- Menu de navigation -->
+        <nav>
+            <ul>
+                <!-- Logo du service traiteur -->
+                <li><img src="Images/fondecran.png" id="logoVivo" alt="Logo Au P'tit Vivo"></li>
+                <!-- Texte de la liste de navigation -->
+                <li id="nav-list-txt">Au P'tit Vivo Traiteur Plats à emporter</li>
+                <!-- définission des liens en séparant les menu des sous-menu -->
+                <li class="menu"><a href="login.html">Se connecter</a></li>
+                <li class="menu"><a href="nouscontacter.html">Nous contacter</a></li>
+                <li class="menu"><a href="commander.html">Commander</a>
+                    <ul class="sousmenu">
+                        <li><a href="commander.html#menu-command">Menu du jour</a></li>
+                        <li><a href="commander.html#carte-command-from">Charcuterie/Fromage</a></li>
+                        <li><a href="commander.html#carte-command-dessert">Desserts</a></li>
+                        <li><a href="commander.html#carte-command-boisson">Boissons</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="#">Information</a>
+                    <ul class="sousmenu">
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="mentionLegale.html">Mentions légales</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Au P'tit Vivo</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2525.6084763924637!2d3.3010954!3d50.7272024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32524f913e975%3A0xcb66428b4b65e571!2sAu%20ptit%20vivo!5e0!3m2!1sfr!2sbe!4v1709453874825!5m2!1sfr!2sbe"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section id="main-coord">
+            <h2>Où nous contacter</h2>
+            <img src="Images/logotel.png" alt="Telephone">
+            <img src="Images/logomap.png" alt="Adresse">
+            <img src="Images/6386842.png" alt="Mail">
+            <p>056/58.84.82</p>
+            <p><a href="https://maps.app.goo.gl/oRAindBqFdBJojiH9">Rue de Saint-Léger 8, 7711 Mouscron</a></p>
+            <p>noemiiea@icloud.com</p>
+        </section>
+        <section id="main-hora">
+            <h2>Horaires</h2>
+            <table>
+                <tr>
+                    <td>Lundi</td>
+                    <td>10H00-14H00 & 16H00-19H00</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                    <td>10H00-14H00 & 16H00-19H00</td>
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                    <td>10H00-14H00 & 16H00-19H00</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                    <td>10H00-14H00 & 16H00-19H00</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                    <td>10H00-14H00 & 16H00-19H00</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                    <td>Fermé</td>
+                </tr>
+                <tr>
+                    <td>Dimanche</td>
+                    <td>Fermé</td>
+                </tr>
+            </table>
+        </section>
+        <section id="main-form">
+            <h2>Vous avez une question/remarque ?</h2>
+            <form method="post" action="#">
+                <label for="main-nom">Nom </label>
+                <input type="text" id="main-nom">
+                <label for="main-prenom">Prénom </label>
+                <input type="text" id="main-prenom">
+                <label for="main-question">Votre question </label>
+                <textarea id="main-question">Votre question ici</textarea>
+                <input type="submit" value="Envoyer" id="question-submit">
+            </form>
+        </section>
+    </main>
+    <!--  Ici le contenue footer de la page (Primary-values.css & layout.html). -->
+    <footer>
+        <!-- un tableau d'horaires -->
+        <table id="horaires">
+            <tr>
+                <td>Lundi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Jeudi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Vendredi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Samedi</td>
+                <td>Fermé</td>
+            </tr>
+            <tr>
+                <td>Dimanche</td>
+                <td>Fermé</td>
+            </tr>
+        </table>
+        <!-- un div contenant les coordonnées tel addresse et mail -->
+        <div id="coordon">
+            <h2>Nos coordonnées :</h2>
+            <img src="Images/logotel.png" alt="phone img">
+            <p>056/58.84.82</p>
+            <img src="Images/logomap.png" alt="mapLogo img">
+            <p><a href="https://maps.app.goo.gl/oRAindBqFdBJojiH9">Rue de Saint-Léger 8, 7711 Mouscron</a></p>
+            <img src="Images/6386842.png" alt="E-mail img">
+            <p>noemiiea@icloud.com</p>
+        </div>
+        <!-- inscription à la newsletter -->
+        <form action="newsletter-create.js" method="post">
+            <p>Inscription à la Newsletter :</p>
+            <table>
+                <tr>
+                    <td><label for="nom">Nom </label></td>
+                    <td><input type="text" class="footer-form-input" id="nom" name="nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom </label></td>
+                    <td><input type="text" class="footer-form-input" id="prenom" name="prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Mail </label></td>
+                    <td><input type="text" class="footer-form-input" id="mail" name="mail"></td>
+                </tr>
+                <tr>
+                    <td><input class="news_letter_button" type="submit" value="Valider"></td>
+                    <td><input class="news_letter_button" type="reset" value="Annuler"></td>
+                </tr>
+            </table>
+        </form>
+        <!-- div regroupant les liens vers instagram et Facebook -->
+        <div id="reseaux">
+            <h2>Nos réseaux :</h2>
+            <a
+                href="https://www.instagram.com/au_ptit_vivo/?fbclid=IwAR1CNkM5GovYbJ8qmzST1r4Igil0PetYIRPgB2fWuXJt0r9z6BV-0IkXjlY"><img
+                    src="Images/logoinsta.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063936575056"><img src="Images/logofb.png"
+                    alt="Facebook"></a>
+        </div>
+        <!-- les liens vers le CSS et HTML validator -->
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="Images/W3C_HTML5_certified.png" alt="html Valide !" />
+            </a>
+        </p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="CSS Valide !" />
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Primary-values.css">
+    <link rel="stylesheet" href="CSS/Head_Main_Foot.css">
+    <link rel="stylesheet" href="CSS/commander.css">
+    <title>Au P'tit Vivo - Commander</title>
+</head>
+<body>
+    <!-- header comun à toutes les pages -->
+    <header>
+        <!-- Menu de navigation -->
+        <nav>
+            <ul>
+                <!-- Logo du service traiteur -->
+                <li><img src="Images/fondecran.png" id="logoVivo" alt="Logo Au P'tit Vivo"></li>
+                <!-- définission des liens en séparant les menu des sous-menu -->
+                <li class="menu"><a href="login.html">Se connecter</a></li>
+                <li class="menu"><a href="nouscontacter.html">Nous contacter</a></li>
+                <li class="menu"><a href="commander.html">Commander</a>
+                    <ul class="sousmenu">
+                        <li><a href="commander.html#menu-command">Menu du jour</a></li>
+                        <li><a href="commander.html#carte-command-from">Charcuterie/Fromage</a></li>
+                        <li><a href="commander.html#carte-command-dessert">Desserts</a></li>
+                        <li><a href="commander.html#carte-command-boisson">Boissons</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="#">Information</a>
+                    <ul class="sousmenu">
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="mentionLegale.html">Mentions légales</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Ici le contenue de la page -->
+    <main>
+        <h1>Au P'tit Vivo</h1>
+        <form action="Script/Commander.js" method="post" id="Command-form">
+            <h2>Menu du jour</h2>
+            <div id="menu-command">
+                <section class="menu-presentation">
+                    <h3>Nom Produit</h3>
+                    <p>Descriptif du produit et de son contenu.</p>
+                    <img src="Images/food.jpg" alt="plats n°1">
+                    <button>Ajouter</button>
+                    <input type="number">
+                </section>
+                <section class="menu-presentation">
+                    <h3>Nom Produit</h3>
+                    <p>Descriptif du produit et de son contenu.</p>
+                    <img src="Images/food.jpg" alt="plats n°1">
+                    <button>Ajouter</button>
+                    <input type="number">
+                </section>
+                <section class="menu-presentation">
+                    <h3>Nom Produit</h3>
+                    <p>Descriptif du produit et de son contenu.</p>
+                    <img src="Images/food.jpg" alt="plats n°1">
+                    <button>Ajouter</button>
+                    <input type="number">
+                </section>
+                <section class="menu-presentation">
+                    <h3>Nom Produit</h3>
+                    <p>Descriptif du produit et de son contenu.</p>
+                    <img src="Images/food.jpg" alt="plats n°1">
+                    <button>Ajouter</button>
+                    <input type="number">
+                </section>
+                <section class="menu-presentation">
+                    <h3>Nom Produit</h3>
+                    <p>Descriptif du produit et de son contenu.</p>
+                    <img src="Images/food.jpg" alt="plats n°1">
+                    <button>Ajouter</button>
+                    <input type="number">
+                </section>
+
+            </div>
+            <div id="carte-command-from" class="carte-style">
+                <img src="Images/pexels-alexy-almond-3756480.jpg" alt="fromage">
+                <section>
+                    <h3>Nos fromages</h3>
+                    <ul>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                    </ul>
+                    <p><button>Ajouter</button></p>
+                </section>
+            </div>
+            <div id="carte-command-charc" class="carte-style">
+                <section>
+                    <h3>Notre charcuterie</h3>
+                    <ul>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                    </ul>
+                    <p><button>Ajouter</button></p>
+                </section>
+                <img src="Images/pexels-malidate-van-769290.jpg" alt="charcuterie">
+            </div>
+            <div id="carte-command-dessert" class="carte-style">
+                <img src="Images/pexels-malidate-van-784633.jpg" alt="boisson">
+                <section>
+                    <h3>Nos desserts</h3>
+                    <ul>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                    </ul>
+                    <p><button>Ajouter</button></p>
+                </section>
+            </div>
+            <div id="carte-command-boisson" class="carte-style">
+                <section>
+                    <h3>Nos boissons</h3>
+                    <ul>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                        <li>Designation produit</li>
+                        <li>Prix :</li>
+                        <li><input type="number"></li>
+                    </ul>
+                    <p><button>Ajouter</button></p>
+                </section>
+                <img src="Images/pexels-malidate-van-769290.jpg" alt="charcuterie">
+            </div>
+            <div id="form-submit" class="form-submit">
+                <section>
+                    <h3>Avant de valider :</h3>
+                    <p>Lorsque que vous cliquez sur "Commander", nous enregistrons votre commande et le traiteur vous confirmera la disponibilités des produits contenue dans cette dernière</p>
+                    <p>Le retraits de votre commande se fait à 10H00-14H00 et 16H00-19H00. A l'adresse suivante: <a href="https://www.google.com/maps/place/Au+ptit+vivo/@50.7272024,3.3010954,17.23z/data=!4m6!3m5!1s0x47c32524f913e975:0xcb66428b4b65e571!8m2!3d50.7271648!4d3.303431!16s%2Fg%2F11qsm8tp2f?entry=tts">Rue de Saint-Léger 8, 7711 Mouscron</a></p>
+                    <p>Tout les paiements se feront en magasins.</p>
+                    <p>Une fois votre commande reçue, vous recevrez un mail contenant les détails de votre commande. Notez que cela est uniquement dans le cas où votre commande est confirmer par le traiteur</p>
+                    <p>Comme vous vous en doutiez sûrement, Au P’tit Vivo n’est pas épargné par la crise
+                        que nous traversons.</p>
+                    <p>Elle nous contraint malheureusement à augmenter subjectivement nos tarifs de
+                        quelques centimes .</p>
+                    <p> Une légère hausse qui nous permet de toujours vous satisfaire en continuant de vous
+                        proposer des produits frais et de qualités
+                        Bon appétit</p>
+                </section>
+                <section>
+                    <h3>Résumé de votre commande</h3>
+                    <table>
+                        <tr>
+                            <td>produits 1</td> <td>prix/total</td> <td>quantité</td>
+                        </tr>
+                        <tr>
+                            <td>produits 9</td> <td>prix/total</td> <td>quantité</td>
+                        </tr>
+                        <tr>
+                            <td>produits 4</td> <td>prix/total</td> <td>quantité</td>
+                        </tr>
+                        <tr>
+                            <td>produits 3</td> <td>prix/total</td> <td>quantité</td>
+                        </tr>
+                    </table>
+                    <p>TOTAL:</p>
+                </section>
+            </div>
+            <input type="submit" value="Commander" id="submit-button">
+        </form>
+    </main>
+<!-- Footer de toutes les pages du sites -->
+    <footer>
+        <!-- un tableau d'horaires -->
+        <table id="horaires">
+            <tr>
+                <td>Lundi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Jeudi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Vendredi</td>
+                <td>10H00-14H00 & 16H00-19H00</td>
+            </tr>
+            <tr>
+                <td>Samedi</td>
+                <td>Fermé</td>
+            </tr>
+            <tr>
+                <td>Dimanche</td>
+                <td>Fermé</td>
+            </tr>
+        </table>
+        <!-- un div contenant les coordonnées tel addresse et mail -->
+        <div id="coordon">
+                <h2>Nos coordonnées :</h2>
+                <img src="Images/logotel.png" alt="phone img">
+                <p>056/58.84.82</p>
+                <img src="Images/logomap.png" alt="mapLogo img">
+                <p><a href="https://maps.app.goo.gl/oRAindBqFdBJojiH9">Rue de Saint-Léger 8, 7711 Mouscron</a></p>
+                <img src="Images/6386842.png" alt="E-mail img">
+                <p>noemiiea@icloud.com</p>
+        </div>
+        <!-- inscription à la newsletter -->
+        <form action="newsletter-create.js" method="post">
+            <p>Inscription à la Newsletter :</p>
+            <table>
+                <tr>
+                    <td><label for="nom">Nom </label></td>
+                    <td><input type="text" class="footer-form-input" id="nom" name="nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom </label></td>
+                    <td><input type="text" class="footer-form-input" id="prenom" name="prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Mail </label></td>
+                    <td><input type="text" class="footer-form-input" id="mail" name="mail"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Valider" class="news_letter_button"></td>
+                    <td><input type="reset" value="Annuler" class="news_letter_button"></td>
+                </tr>
+            </table>
+        </form>
+        <!-- div regroupant les liens vers instagram et Facebook -->
+        <div id="reseaux">
+            <h2>Nos réseaux :</h2>
+            <a
+                href="https://www.instagram.com/au_ptit_vivo/?fbclid=IwAR1CNkM5GovYbJ8qmzST1r4Igil0PetYIRPgB2fWuXJt0r9z6BV-0IkXjlY"><img
+                    src="Images/logoinsta.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063936575056"><img src="Images/logofb.png"
+                    alt="Facebook"></a>
+        </div>
+        <!-- les liens vers le CSS et HTML validator -->
+        <p class="footer-valid-w3c">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="Images/W3C_HTML5_certified.png"
+                    alt="html Valide !" />
+            </a>
+        </p>
+            <p class="footer-valid-w3c">
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="CSS Valide !" />
+                </a>
+            </p>
+    </footer>
+</body>
+</html>
